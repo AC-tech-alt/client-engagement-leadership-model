@@ -48,6 +48,10 @@ Field Readiness looks like: Leadership can open one dashboard and see team perfo
 
 Evidence this isn't theoretical: Architected the centralized grants and data infrastructure behind a $500M+ portfolio serving hundreds of donor-advised funds, 90+ public foundation vehicles, and active fiscally sponsored projects, and served as Product Owner for a digital transformation that built AI tools directly into Salesforce and reporting systems. A comparable infrastructure rebuild measurably increased cross-functional processing speed by 25% and executive decision-making capacity by 30%.
 
+![Illustrative team performance dashboard structure described above](./assets/client-engagement-dashboard-mockup.svg)
+
+*Illustrative mockup only — layout and metric categories, not real figures.*
+
 ### 2. Escalation and Complex Resolution
 
 Execution Plan: Define a clear escalation path for client situations that require judgment beyond standard process, with explicit criteria for when senior leadership needs to be looped in.
