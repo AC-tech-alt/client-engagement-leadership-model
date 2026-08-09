@@ -4,17 +4,19 @@
 
 A worked example: leading the client engagement function for a philanthropic capital platform — team performance infrastructure, escalation ownership, relationship engagement planning, and cross-functional voice-of-the-client partnership — without treating "clients are onboarded" and "clients are getting value" as the same milestone.
 
-Status: early / worked example. This models one hypothetical mandate end to end rather than defining a general framework. See business-enablement-concept-model (https://github.com/AC-tech-alt/business-enablement-concept-model) for the underlying concept model this is built on.
+Status: early / worked example. This models one hypothetical mandate end to end rather than defining a general framework. See [business-enablement-concept-model](https://github.com/AC-tech-alt/business-enablement-concept-model) for the underlying concept model this is built on.
 
 ## The scenario
 
-A philanthropic capital platform manages a growing base of sophisticated clients — donor-advised fund holders, private foundations, and fiscally sponsored projects — who expect their capital to be deployed toward mission-aligned outcomes quickly, transparently, and with excellent service. The client engagement function needs team performance infrastructure, a clear escalation path for complex relationships, systematic engagement planning, and a real channel for client feedback to reach product and strategy, all while the client base is already growing.
+A philanthropic capital platform serves a deliberately wide client spectrum: individuals opening their first donor-advised fund, single-family offices building a decades-long impact strategy, multi-family offices coordinating impact investing across many client relationships at once, foundations professionalizing an existing portfolio, and corporations running employee-directed giving through the same infrastructure. Products span a turnkey donor-advised fund, an impact investment platform for private funds and companies, client-recommended direct investments, custom portfolios for larger accounts, due diligence services, and full back-office administration for foundation-compatible structures.
+
+The client engagement function needs team performance infrastructure, a clear escalation path for complex relationships, systematic engagement planning, and a real channel for client feedback to reach product and strategy — across a client base where a first-time individual donor and a multi-family office running eight-figure custom portfolios sit on the same team's book.
 
 ## Business Problem to Initiative
 
-Business Problem: The client base has grown past what ad hoc relationship management can support — escalations get handled inconsistently, there's no shared KPI framework for measuring client experience, and client feedback isn't systematically reaching the teams that could act on it.
+Business Problem: The client base spans five distinct segments — individuals, single-family offices, multi-family offices, foundations, and corporations — each with a different product mix and complexity level, and ad hoc relationship management can't flex across that range. Escalations get handled inconsistently, there's no shared KPI framework for measuring client experience across segments, and client feedback isn't systematically reaching the teams that could act on it.
 
-Initiative: Build and lead the client engagement function — the team, systems, and operating rhythms that turn client feedback into action and scale relationship excellence as the client base grows.
+Initiative: Build and lead the client engagement function — the team, systems, and operating rhythms that turn client feedback into action and scale relationship excellence across every client segment as the base grows.
 
 ## The five Workflows
 
@@ -22,98 +24,108 @@ This mandate isn't one job — it's five distinct Workflows sitting under one In
 
 ```mermaid
 flowchart TD
-I["Initiative: Build client engagement function"]:::problem
-I --> W1["1. Team Performance Infrastructure"]:::design
-I --> W2["2. Escalation and Complex Resolution"]:::design
-I --> W3["3. Relationship Engagement Planning"]:::design
-I --> W4["4. Team Development"]:::design
-I --> W5["5. Cross-functional Voice of the Client"]:::design
-W1 --> A["Adoption: client-facing teams use the plan, not just have it"]:::outcome
-W2 --> A
-W3 --> A
-W4 --> A
-W5 --> A
-A --> VR["Value Realization: rising retention and expansion, faster resolution, client feedback visibly shaping the roadmap"]:::outcome
-
-classDef problem fill:#fde68a,stroke:#b45309,color:#78350f
-classDef design fill:#bfdbfe,stroke:#1d4ed8,color:#1e3a8a
-classDef outcome fill:#bbf7d0,stroke:#15803d,color:#14532d
+    I["Initiative: Build client engagement function"]:::problem
+    I --> W1["1. Team Performance Infrastructure"]:::design
+    I --> W2["2. Escalation and Complex Resolution"]:::design
+    I --> W3["3. Relationship Engagement Planning"]:::design
+    I --> W4["4. Team Development"]:::design
+    I --> W5["5. Cross-functional Voice of the Client"]:::design
+    W1 --> A["Adoption: client-facing teams use the plan, not just have it"]:::outcome
+    W2 --> A
+    W3 --> A
+    W4 --> A
+    W5 --> A
+    A --> VR["Value Realization: rising retention and expansion, faster resolution, client feedback visibly shaping the roadmap"]:::outcome
+    classDef problem fill:#fde68a,stroke:#b45309,color:#78350f
+    classDef design fill:#bfdbfe,stroke:#1d4ed8,color:#1e3a8a
+    classDef outcome fill:#bbf7d0,stroke:#15803d,color:#14532d
 ```
 
 ### 1. Team Performance Infrastructure
 
-Execution Plan: Stand up a KPI framework — response time, onboarding cycle time, satisfaction, retention and expansion — tied to the CRM and a regular business-review rhythm, so performance gaps surface as a trend, not a client complaint.
+Execution Plan: Stand up a KPI framework — response time, onboarding cycle time, satisfaction, retention and expansion — tied to the CRM and a regular business-review rhythm, segmented by client type so a multi-family office and an individual donor aren't measured against the same benchmark.
 
-Field Readiness looks like: Leadership can open one dashboard and see team performance against every KPI without waiting on a manual roll-up.
+Field Readiness looks like: Leadership can open one dashboard and see team performance against every KPI, by segment, without waiting on a manual roll-up.
 
 Evidence this isn't theoretical: Architected the centralized grants and data infrastructure behind a $500M+ portfolio serving hundreds of donor-advised funds, 90+ public foundation vehicles, and active fiscally sponsored projects, and served as Product Owner for a digital transformation that built AI tools directly into Salesforce and reporting systems. A comparable infrastructure rebuild measurably increased cross-functional processing speed by 25% and executive decision-making capacity by 30%.
 
 ![Illustrative team performance dashboard structure described above](./assets/client-engagement-dashboard-mockup.svg)
 
-*Illustrative mockup only — layout and metric categories, not real figures.*
+*Illustrative dashboard structure only — layout and metric categories, not real figures.*
+
 
 ### 2. Escalation and Complex Resolution
 
-Execution Plan: Define a clear escalation path for client situations that require judgment beyond standard process, with explicit criteria for when senior leadership needs to be looped in.
+Execution Plan: Build a tiered escalation path with clear ownership at each tier, so a custom-portfolio dispute, a due-diligence disagreement, and a back-office administration failure each land with someone who has the authority and context to resolve it, not just the availability.
 
-Field Readiness looks like: A complex client issue reaches the right decision-maker on the first escalation, not after two or three handoffs.
+Field Readiness looks like: Every open escalation has a named owner, a resolution target, and a status a manager can see without asking.
 
-Evidence: Managed expenditure-responsibility and anti-bribery/anti-corruption frameworks with 100% compliance across a $500M+ portfolio, and administered compliance protocols spanning multiple regulatory regimes at once — the same judgment-under-ambiguity that complex-client escalation ownership requires.
+Evidence this isn't theoretical: Served as the escalation point for judgment-heavy compliance and relationship situations — expenditure-responsibility and anti-bribery/anti-corruption frameworks — with 100% compliance across a $500M+ portfolio, and led a $5M rapid-response partnership from structuring through closeout on a compressed timeline without cutting compliance corners.
+
 
 ### 3. Relationship Engagement Planning
 
-Execution Plan: Build annual engagement plans for top-tier relationships with clear goals, and a structured, cross-functionally coordinated onboarding path for complex or strategic clients.
+Execution Plan: Build a standing engagement-planning cadence for top-tier relationships — single- and multi-family offices, foundations, and corporate accounts moving into custom portfolios — so growth conversations happen on a schedule, not only when a client raises one.
 
-Field Readiness looks like: A strategic client's first 90 days feel coordinated and intentional, not improvised by whichever team happens to pick up the account.
+Field Readiness looks like: Every top-tier relationship has a written engagement plan with next steps and an owner, reviewed on a set cadence rather than reconstructed from memory before each call.
 
-Evidence: Managed $50M+ in corporate social impact programs across a portfolio of 10+ Fortune 500 clients end to end, including a $5M rapid-response partnership that moved from structuring through closeout on a compressed timeline without cutting corners on compliance. Ran full P&L and end-to-end client experience for 750+ individual clients as a founder, from acquisition through delivery.
+Evidence this isn't theoretical: Managed $50M+ in corporate social impact programs across 10+ Fortune 500 relationships end to end at GlobalGiving, and as founder of two client-facing brands owned full P&L and end-to-end client experience for 750+ individual clients, from acquisition through delivery.
+
 
 ### 4. Team Development
 
-Execution Plan: Hire, coach, and build career pathing for client-facing team members as the team scales, with clear standards for communication excellence.
+Execution Plan: Recruit, coach, and develop a client-facing team against the KPI framework from Workflow 1, with OKRs and a hiring plan that scales with the client base instead of lagging it.
 
-Field Readiness looks like: Team members know what growth looks like and get real-time coaching, not just an annual review.
+Field Readiness looks like: Every team member has current OKRs tied to the shared KPI framework, and a documented development plan, not just a job description.
 
-Evidence: Currently recruits, coaches, and develops a cross-functional team of 12 to 15 directing operational execution and fiscal governance for a $500M+ portfolio, building management capability while shipping six major process enhancements that increased delivery scalability without a proportional increase in headcount.
+Evidence this isn't theoretical: Currently recruit, coach, and develop a cross-functional team of 12–15, shipping six major process enhancements that increased delivery scalability without a proportional increase in headcount.
+
 
 ### 5. Cross-functional Voice of the Client
 
-Execution Plan: Represent client feedback patterns in strategy conversations, and partner with business development, legal, investments, and operations on shared client-facing initiatives.
+Execution Plan: Build a real channel for client feedback to reach product and strategy — including the due diligence and back-office administration teams that sit outside client engagement — so client input shapes decisions instead of stopping at the account team.
 
-Field Readiness looks like: Product and service decisions reflect real client feedback patterns, not internal assumptions about what clients want.
+Field Readiness looks like: Product and strategy teams can point to a specific decision that changed because of client feedback routed through this channel, not just a shared inbox no one reads.
 
-Evidence: Served as Product Owner for a digital grants system transformation, translating direct feedback from donors and grantee partners into product requirements built into Salesforce and reporting systems — the same client-input-to-product loop this workflow depends on. Recognized for executive communication and stakeholder alignment across matrixed organizations.
+Evidence this isn't theoretical: As Product Owner for a digital grants system transformation, translated direct feedback from donors and grantee partners into product requirements built into Salesforce and reporting systems — the same client-input-to-product loop this workflow depends on — and was recognized for executive communication and stakeholder alignment across matrixed, cross-functional organizations.
 
-## Where I'd start (first 90 days)
 
-Stand up the KPI framework and CRM reporting first, since every other workflow needs a shared way to measure what "working" means. Define the escalation path and criteria next, so complex issues have a clear home before the next one arrives. Then pilot the annual engagement-plan process with the handful of most strategic relationships before generalizing it across the full client base. Adoption gets checked by whether client-facing teams actually use the plan, not by whether it got written.
+## Where I'd start
+
+Team Performance Infrastructure first. Escalation ownership and engagement planning both depend on a shared, segmented KPI framework already being in place — without it, the other four workflows are running on instinct instead of evidence.
+
 
 ## Why this approach
 
-Most client engagement functions get scored on whether the team is staffed and the CRM is live, not on whether clients actually feel the difference six months later. This example follows the same design philosophy as [Evani Govender's CommonGood Atlas](https://www.linkedin.com/pulse/grant-payment-why-grantmaking-systems-need-shared-evani-govender-rn5bc/): name the concepts precisely enough that leadership, client-facing teams, and cross-functional partners are all working from the same definition of "done" — then build the systems on top of that shared language, not the other way around.
+The same failure mode shows up in grant operations and client engagement: a function gets treated as "done" once it exists, instead of tracked through to whether it's actually changing outcomes. Five workflows with their own execution plans and field-readiness criteria force that distinction — a KPI dashboard that nobody reviews isn't team performance infrastructure, and an escalation process nobody uses isn't complex resolution. This model is built to catch that gap before it becomes a client's problem.
 
-## Core concepts at a glance
-
-| Concept | One-line definition | In this example |
-|---|---|---|
-| Business Problem | A validated gap between current and desired state, named by a domain leader | Ad hoc relationship management can't keep up with a growing, sophisticated client base |
-| Initiative | The chartered effort to close a Business Problem | Build and lead the client engagement function |
-| Workflow | The designed sequence of steps, roles, and systems that operationalizes part of an Initiative | Each of the five Workflows above: Team Performance Infrastructure, Escalation and Complex Resolution, Relationship Engagement Planning, Team Development, Cross-functional Voice of the Client |
-| Execution Plan | The concrete build-out of a Workflow | The build steps under each Workflow's "Execution Plan" line |
-| Field Readiness | The state where people have what they need to run the Workflow | What "Field Readiness looks like" describes under each Workflow |
-| Adoption | Sustained, observed use of the Workflow under normal operating pressure | Client-facing teams use the engagement plan and escalation path, not just have access to them |
-| Value Realization | The measured outcome the Initiative was chartered to produce | Rising retention and expansion, faster resolution times, client feedback visibly shaping the roadmap |
-
-Full definitions live in [business-enablement-concept-model](https://github.com/AC-tech-alt/business-enablement-concept-model/tree/main/concepts); this table shows how each concept maps onto this specific scenario.
-
-## Next steps
-
-- [ ] Validate the escalation criteria against a real multi-stakeholder, high-ambiguity client scenario
-- [ ] Build out the annual engagement-plan template beyond the top tier of relationships
-- [ ] Define specific KPI targets (response time, onboarding cycle time, NPS) rather than just naming the categories
-- [ ] Pressure-test the model against a client base with a much wider sophistication range, from first-time to highly experienced investors
-- [ ] Add a worked example of a cross-functional handoff from prospect through steady-state servicing
 
 ## License
 
 MIT — see [LICENSE](./LICENSE).
+
+
+## Pressure test
+
+See [examples/pressure-test.md](./examples/pressure-test.md) for a cross-segment escalation scenario that stress-tests three workflows at once, with an honest accounting of where the model bends.
+
+
+## Core concepts at a glance
+
+| Concept | What it means here |
+|---|---|
+| Business Problem | The client base spans five segments with different needs; ad hoc relationship management can't flex across that range. |
+| Initiative | Build and lead the client engagement function end to end. |
+| Workflow | One of five distinct pieces of the mandate, each with its own execution plan. |
+| Execution Plan | The concrete steps that stand up a Workflow. |
+| Field Readiness | The observable signal that a Workflow is actually in use, not just built. |
+| Adoption | Client-facing teams use the plan, not just have it. |
+| Value Realization | Rising retention and expansion, faster resolution, client feedback visibly shaping the roadmap. |
+
+
+## Next steps
+
+- [ ] Pilot the KPI framework with one segment before rolling it out across all five
+- [ ] Define escalation tiers and named owners before the first complex case arrives
+- [ ] Set the engagement-plan review cadence and put it on the calendar, not just in a doc
+- [ ] Identify the first cross-functional partner for the voice-of-the-client channel
