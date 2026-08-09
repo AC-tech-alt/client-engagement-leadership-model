@@ -109,6 +109,11 @@ MIT — see [LICENSE](./LICENSE).
 
 See [examples/pressure-test.md](./examples/pressure-test.md) for a cross-segment escalation scenario that stress-tests three workflows at once, with an honest accounting of where the model bends.
 
+## Communication standards
+
+A workflow description says the team is responsive and escalations get resolved. It doesn't say how fast, what happens when a client goes quiet, or who covers an account when an officer is out. See examples/communication-standards.md (./examples/communication-standards.md) for what that looks like as an actual operating document — tiered response commitments, an escalation ladder, and a rule for what to say when a timeline becomes genuinely unpredictable.
+
+
 
 ## Core concepts at a glance
 
